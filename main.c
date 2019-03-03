@@ -106,7 +106,7 @@ int main(int argc, char *argv[]) {
            ((tvalAfter.tv_sec - tvalBefore.tv_sec)*1000000L
             +tvalAfter.tv_usec) - tvalBefore.tv_usec
     );
-    char kar = 65;
+
     for (int k = 0; k < tulemusCounter; ++k) {
         printf(",");
         for (int i = 0; i < 32; ++i) {
